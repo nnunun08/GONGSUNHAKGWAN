@@ -1,37 +1,555 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        ul {
-            margin: 100px auto;
-            width: 100%;
-            max-width: 500px;
-            text-align: left;
-            list-style: auto;
-            border: 1px solid #000;
-            padding: 40px;
-            box-sizing: border-box;
-        }
-        li {
-            line-height: 1.4;
-            font-size: 16px;
-        }
-        li + li {
-            margin-top: 10px;
-        }
-    </style>
+    <title>공선학관</title>
+    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet" href="./css/slick-theme.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
-
 <body>
-    <ul>
-        <li><a href="./page1.html">page1</a></li>
-        
-    </ul>
-</body>
 
+    <div class="header">
+        <div class="inner">
+            <div class="left">
+                <ul>
+                    <li class="logo"><a href="#"><img src="./img/logo.svg" alt="logo"></a></li>
+                    <li class="menu"><a href="#">주요기능</a></li>
+                    <li class="menu"><a href="#">사용요금</a></li>
+                    <li class="menu"><a href="#">사용문의</a></li>
+                </ul>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <a href="#">회원가입</a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="btn">로그인</div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="visual">
+        <div class="inner">
+            <div class="infoWrap">
+                <div class="top">
+                    <div class="sub">
+                        Total Solution
+                    </div>
+                    <div class="tit">
+                        학원 경영관리<br>
+                        <strong>토탈 솔루션 <b>공선학관</b></strong>
+                    </div>
+                </div>
+                <div class="bottom">
+                    <div class="insertPhone">
+                        <input type="number" placeholder="연락처 (-없이)">
+                        <a href="#" class="btn">상담하기</a>
+                    </div>
+                    <div class="box">
+                        <div>학원수납부터 경영분석까지</div>
+                        <div class="yellow">무료 제공합니다</div>
+                    </div>
+                </div>
+            </div>
+
+            <img class="model" src="./img/visual_model.png" alt="model">
+
+            <div class="sideWrap">
+                <div class="katalk sideContact">
+                    <a href="#">
+                        카톡상담
+                    </a>
+                </div>
+                <div class="mesg sideContact">
+                    <a href="#">
+                        문의하기
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="feature">
+        <div class="inner">
+            <div class="secSub">
+                <h5>All In One 학원 서비스를 무료로</h5>
+            </div>
+            <div class="secTit">
+                <h2>스마트 원생관리 프로그램, 공선학관</h2>
+            </div>
+
+            <ul class="featureItem">
+                <li>
+                    <img src="./img/ic_featrue_01.svg" alt="ic_featrue_01">
+                    <h4>초기 세팅비</h4>
+                    <p>
+                        부담없이 시작해보세요.<br>
+                        비용 걱정없이 이용할 수 있습니다.
+                    </p>
+                </li>
+                <li>
+                    <img src="./img/ic_featrue_02.svg" alt="ic_featrue_02">
+                    <h4>기존 데이터 이전</h4>
+                    <p>
+                        학원의 소중한 데이터를<br>
+                        안전하게 이전해드립니다.
+                    </p>
+                </li>
+                <li>
+                    <img src="./img/ic_featrue_03.svg" alt="ic_featrue_03">
+                    <h4>꼼꼼한 교육 지원</h4>
+                    <p>
+                        이용에 어려움이 없게<br>
+                        맞춤 상담으로 도와드립니다.
+                    </p>
+                </li>
+                <li>
+                    <img src="./img/ic_featrue_04.svg" alt="ic_featrue_04">
+                    <h4>지속적인 업데이트</h4>
+                    <p>
+                        꾸준한 업데이트로<br>
+                        더 많은 기능이 추가될 예정입니다. 
+                    </p>
+                </li>
+            </ul>
+
+            <h4>이 모든 서비스를 비용부담 없이 누리세요</h4>
+        </div>
+    </div>
+
+    <div class="featureSlide">
+        <h2>
+            공선학관은 원생관리 시<br>
+            필요한 기능이 빠짐없이 들어있어요.
+        </h2>
+        <div class="inner">
+            <div class="slide">
+                <div class="item">
+                    <div class="tit"><span>01</span>학생 성적 실시간 모니터링</div>
+                    <img src="./img/img_feature_01.jpg" alt="img_feature_01">
+                </div>
+                <div class="item">
+                    <div class="tit"><span>02</span>학생 성적 실시간 모니터링</div>
+                    <img src="./img/img_feature_02.jpg" alt="img_feature_02">
+                </div>
+                <div class="item">
+                    <div class="tit"><span>03</span>학생 성적 실시간 모니터링</div>
+                    <img src="./img/img_feature_03.jpg" alt="img_feature_03">
+                </div>
+                <div class="item">
+                    <div class="tit"><span>04</span>학생 성적 실시간 모니터링</div>
+                    <img src="./img/img_feature_04.jpg" alt="img_feature_04">
+                </div>
+                <div class="item">
+                    <div class="tit"><span>05</span>학생 성적 실시간 모니터링</div>
+                    <img src="./img/img_feature_05.jpg" alt="img_feature_05">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="effect">
+        <div class="inner inner2">
+            <div>
+                <h2>최상의 효율,<br>
+                    하지만 업무는 최소로<br>
+                    공선학관 하나면 가능해요.
+                </h2>
+                <div class="insertPhone">
+                    <input type="number" placeholder="연락처 (-없이)">
+                    <a href="#" class="btn">상담하기</a>
+                </div>
+            </div>
+            <img class="effectImg d-pc" src="./img/img_effect.png" alt="effect">
+            <img class="effectImg d-mobile" src="./img/img_effect_m.png" alt="effect">
+
+        </div>
+
+        <div class="score">
+            <div class="inner">
+                <ul>
+                    <li>
+                        <div class="sub">원비 청구/수납 업무</div>
+                        <div class="value">95%↓</div>
+                    </li>
+                    <li>
+                        <div class="sub">학부모 소통업무</div>
+                        <div class="value">90%↓</div>
+                    </li>
+                    <li>
+                        <div class="sub">교육청점검 대응업무</div>
+                        <div class="value">95%↓</div>
+                    </li>
+                    <li>
+                        <div class="sub">급여관리 업무</div>
+                        <div class="value">90%↓</div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="forFree">
+        <div class="inner">
+            <h2>
+                <em>충분히 체험하고 결정하세요.</em><br>
+                공선학관은 전부 0원이니까요.
+            </h2>
+            <ul>
+                <li>
+                    <img src="./img/img_forFree_01.png" alt="forFree1">
+                    <h5>도입비 0원, 계약금 0원, 약정기간 X</h5>
+                    <p>
+                        불편하시면 언제든 해지할 수 있습니다.<br>
+                        부담없이 시작하세요. 
+                    </p>
+                </li>
+                <li>
+                    <img src="./img/img_forFree_02.png" alt="forFree2">
+                    <h5>솔루션 사용료 무료</h5>
+                    <p>
+                        무료 프로그램이지만,<br>
+                        원장님들에게 꼭 필요한 핵심 기능이 모두 있습니다.
+                    </p>
+                </li>
+                <li>
+                    <img src="./img/img_forFree_03.png" alt="forFree3">
+                    <h5>쉬운 사용법과 풍부한 기능</h5>
+                    <p>
+                        정기 업데이트로 지속 발전합니다.<br>
+                        학원업무 경험자라면 누구나 쉽게 사용할 수 있습니다. 
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="dontWorry">
+        <div class="inner">
+            <div class="secSub">
+                <h5>All In One 학원 서비스를 무료로</h5>
+            </div>
+            <div class="secTit">
+                <h2>스마트 원생관리 프로그램, 공선학관</h2>
+            </div>
+
+            <img src="./img/img_dontWorry.png" alt="dontWorry">
+
+            <h4>
+                공선학관, 학생이 있는 곳이라면 어디든 필수입니다.
+            </h4>
+
+            <ul class="tag">
+                <li class="item">입시보습</li>
+                <li class="item">외국어</li>
+                <li class="item">독서/논술</li>
+                <li class="item">공부방</li>
+                <li class="item">온라인 교육</li>
+                <li class="item">실용음악</li>
+                <li class="item">예체능</li>
+                <li class="item">유치원/학교</li>
+                <li class="item">직업(성인)학원</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="descSec">
+        <div class="inner">
+            <div class="item">
+                <div><img src="./img/img_desc_01.png" alt="img_desc_01"></div>
+                <div class="textWrap">
+                    <h2>
+                        다양한 교육업을 위한<br>
+                        고객 관리와 수업 관리
+                    </h2>
+                    <p>입시학원, 교습소, 공부방, 실용음악학원, 온라인 학원 과외 등 교육이 있는 곳이면 어디든 공선학관이 함께합니다. 필요하신 기능이 있다면 언제든 제안해 주세요.</p>
+                    <ul>
+                        <li>학원 경영관리 + 원생관리 + 교육관리</li>
+                        <li>경영관리 : 학원을 경영하기 위한 원비 청구/수납 관리, 자금 관리, 성과 관리, 조직 관리, 분원 관리, 기타 행정 등</li>
+                        <li>원생관리 : 학원의 고객인 원생, 학부모를 관리하는 기능</li>
+                        <li>교육관리 : 클래스관리(수강료, 시간료, 담임), 성적, 과제, 진도, 시험, 교재, 학습리포트</li>
+                    </ul>
+                    <p class="point">
+                        공선학관에는 학원의 다양한 니즈를 만족하는 맞춤형 상품이 준비되어 있습니다. 
+                    </p>
+                    <p class="desc">
+                        비대면 수납과 출결만으로 간편하게 시작하고 싶은 학원도, 상담, 알림장 등 다양한 원생관리 도구가 필요한 학원도, 자금관리, 결산, 급여 등 복잡한 경영관리 자동화가 필요한 학원도 공선학관을 사용해 보세요.
+                    </p>
+                </div>
+            </div>
+            <div class="item">
+                <div class="textWrap">
+                    <h2>
+                        앱설치 없이도 손쉽게 구축하는<br>
+                        관리형 학원
+                    </h2>
+                    <p>
+                        성적표, 과제, 보강, 진도, 학습 리포트와 비대면 소통까지. 개인별 학습관리를 위한 지속적인 기능 개발로 중소형 학원도 쉽게 관리형 학원 체계를 구축할 수 있습니다.
+                    </p>
+                    <ul>
+                        <li>학원앱 설치 없이 카카오톡 기반으로 모든 비대면 소통</li>
+                        <li>20년 학원 전문가의 경영 노하우를 완벽히 녹인 디지털 학원 경영 프로그램</li>
+                        <li>학습과 교육 데이터를 자동으로 수집하고 리포트를 만드는 교육 관리 서비스</li>
+                        <li>휴일에도 강의 중에도 알아서 청구하고 수납하는 똑똑한 수강료 관리</li>
+                    </ul>
+                    <p class="point">
+                        공선학관은 가장 저렴하게 관리형 학원을 구축할 수 있는 솔루션입니다. 
+                    </p>
+                    <p class="desc">
+                        공선학관의 경험많은 학원 전문가들이 원장님의 니즈를 파악하고 꼭 맞는 솔루션을 제안합니다.
+                    </p>
+                </div>
+                <div><img src="./img/img_desc_02.png" alt="img_desc_02"></div>
+            </div>
+            <div class="item">
+                <div><img src="./img/img_desc_03.png" alt="img_desc_03"></div>
+                <div class="textWrap">
+                    <h2>
+                        성장을 지향하는<br>
+                        비즈니스 인사이트
+                    </h2>
+                    <p>
+                        매일의 이슈와 기간별 성과를 한눈에 파악하세요. 공선학관의 빅데이터 분석은 다양한 경영 지표를 제공합니다. 하나의 아이디로 여러 분원을 간편하게 관리할 수 있어요.
+                    </p>
+                    <ul>
+                        <li>매일 모바일로 전달되는 경영분석 리포트로 인사이트 업!</li>
+                        <li>다양한 타입의 직원 관리와 급여 관리를 지원</li>
+                        <li>여러 분원을 통합 관리할 수 있는 프랜차이즈 관리자 서비스</li>
+                    </ul>
+                    <p class="point">
+                        공선학관은 학원의 소중한 데이터 이전을 안전하게 관리합니다.
+                    </p>
+                    <p class="desc">
+                        20년 학원 전문가가 보장하는 학원 성장 노하우가 궁금하시다면 공선학관을 이용해 보세요. 학원이 성장하는 경영 프로세스를 손쉽게 구축하고 성과를 관리할 수 있습니다.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="function">
+        <div class="inner">
+            <h2>
+                공선학관의 명품 기능을 소개합니다.
+            </h2>
+            <ul class="card">
+                <li class="item">
+                    <div class="tray">
+                        <img src="./img/ic_func_01.svg" alt="func1">
+                        <h5>스마트 청구/수납</h5>
+                        <p>원생별 청수서와 알림톡 발송되고 다양한 결제수단을 제공합니다.</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="tray">
+                        <img src="./img/ic_func_02.svg" alt="func2">
+                        <h5>핵심 원생관리</h5>
+                        <p>등하원 알림이 발송되며 수강내역을 손쉽게 관리할 수 있습니다.</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="tray">
+                        <img src="./img/ic_func_03.svg" alt="func3">
+                        <h5>소통관리</h5>
+                        <p>원생 상담일지 , 출결현황판으로 체계적으로 관리 및 상담이 가능합니다.</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="tray">
+                        <img src="./img/ic_func_04.svg" alt="func4">
+                        <h5>개인화된 교육관리</h5>
+                        <p>원생별 학습 리포트를 관리할 수 있습니다. 성적, 과제를 점검할 수 있습니다.</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="tray">
+                        <img src="./img/ic_func_05.svg" alt="func5">
+                        <h5>경영성과 관리</h5>
+                        <p>학원의 현황을 한눈에 볼 수 있는 리포트 제공, 수입과 지출 관리 내역을 관리할 수 있습니다.</p>
+                    </div>
+                </li>
+                <li class="item">
+                    <div class="tray">
+                        <img src="./img/ic_func_06.svg" alt="func6">
+                        <h5>직원관리</h5>
+                        <p>직원들의 근태와 급여 관리 기능을 제공합니다.</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="infinitiBrand">
+        <div class="inner">
+            <h2>
+                이미 많은 원장님들이<br>
+                믿고 사용하고 계십니다.
+            </h2>
+
+            <ul>
+                <li><img src="./img/img_brand_01.png" alt="brand01"></li>
+                <li><img src="./img/img_brand_02.png" alt="brand02"></li>
+                <li><img src="./img/img_brand_03.png" alt="brand03"></li>
+                <li><img src="./img/img_brand_04.png" alt="brand04"></li>
+                <li><img src="./img/img_brand_05.png" alt="brand05"></li>
+                <li><img src="./img/img_brand_06.png" alt="brand06"></li>
+                <li><img src="./img/img_brand_07.png" alt="brand07"></li>
+                <li><img src="./img/img_brand_08.png" alt="brand08"></li>
+                <li><img src="./img/img_brand_09.png" alt="brand09"></li>
+                <li><img src="./img/img_brand_10.png" alt="brand10"></li>
+                <li><img src="./img/img_brand_11.png" alt="brand11"></li>
+                <li><img src="./img/img_brand_12.png" alt="brand12"></li>
+                <li><img src="./img/img_brand_01.png" alt="brand01"></li>
+                <li><img src="./img/img_brand_02.png" alt="brand02"></li>
+                <li><img src="./img/img_brand_03.png" alt="brand03"></li>
+                <li><img src="./img/img_brand_04.png" alt="brand04"></li>
+                <li><img src="./img/img_brand_05.png" alt="brand05"></li>
+                <li><img src="./img/img_brand_06.png" alt="brand06"></li>
+                <li><img src="./img/img_brand_07.png" alt="brand07"></li>
+                <li><img src="./img/img_brand_08.png" alt="brand08"></li>
+                <li><img src="./img/img_brand_09.png" alt="brand09"></li>
+                <li><img src="./img/img_brand_10.png" alt="brand10"></li>
+                <li><img src="./img/img_brand_11.png" alt="brand11"></li>
+                <li><img src="./img/img_brand_12.png" alt="brand12"></li>
+                <li><img src="./img/img_brand_01.png" alt="brand01"></li>
+                <li><img src="./img/img_brand_02.png" alt="brand02"></li>
+                <li><img src="./img/img_brand_03.png" alt="brand03"></li>
+                <li><img src="./img/img_brand_04.png" alt="brand04"></li>
+                <li><img src="./img/img_brand_05.png" alt="brand05"></li>
+                <li><img src="./img/img_brand_06.png" alt="brand06"></li>
+                <li><img src="./img/img_brand_07.png" alt="brand07"></li>
+                <li><img src="./img/img_brand_08.png" alt="brand08"></li>
+                <li><img src="./img/img_brand_09.png" alt="brand09"></li>
+                <li><img src="./img/img_brand_10.png" alt="brand10"></li>
+                <li><img src="./img/img_brand_11.png" alt="brand11"></li>
+                <li><img src="./img/img_brand_12.png" alt="brand12"></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="download">
+        <div class="inner">
+            <div><img class="mockup" src="./img/img_mockup.png" alt="mockup"></div>
+            <div class="textWrap">
+                <h2>
+                    <em>PC/모바일,</em><br>
+                    언제어디서나 간편하게
+                </h2>
+                <p>
+                    PC/모바일 두곳에서 사용할 수있게 반응형 웹으로 제작되어 있으며,<br>
+                    앱 설치 시 모바일에서도 자유롭게 이용할 수 있습니다.
+                </p>
+
+                <div class="app">
+                    <div class="name">공선학관 App</div>
+                    <span><a href="#"><img src="./img/img_google.png" alt="goo"></a></span>
+                    <span><a href="#"><img src="./img/img_apple.png" alt="app"></a></span>
+                </div>
+
+                <div class="app">
+                    <div class="name">출결패드 App</div>
+                    <span><a href="#"><img src="./img/img_google.png" alt="goo"></a></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="price">
+        <div class="inner">
+            <h2>
+                <em>학원 경영관리 토탈 솔루션</em><br>
+                공선학관을 무료로 이용하세요.
+            </h2>
+            <ul>
+                <li><img src="./img/img_price_01.png" alt="price01"></li>
+                <li><img src="./img/img_price_02.png" alt="price02"></li>
+                <li><img src="./img/img_price_03.png" alt="price03"></li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="rightNow">
+        <div class="inner">
+            <img src="./img/ic_rightNow.svg" alt="text">
+            <img class="sonImg" src="./img/img_rightNow.png" alt="sonProfile">
+        </div>
+    </div>
+    
+    <div class="contact">
+        <div class="inner">
+            <div>
+                <div class="secSub">
+                    <h5>상담신청</h5>
+                </div>
+                <div class="secTit">
+                    <h2>친절한 상담을<br>
+                        약속드립니다.</h2>
+                </div>
+                <p>
+                    문의를 남겨주시면,<br>
+                    담당자가 유선, 문자, 이메일 등을 통해서<br>
+                    순차적으로 답변드립니다.
+                </p>
+            </div>
+
+            <div class="form">
+                <form action="">
+                    <div class="input">
+                        <div class="label atk">성함</div>
+                        <input type="text" placeholder="이름을 입력해 주세요.">
+                    </div>
+                    <div class="input">
+                        <div class="label atk">연락처</div>
+                        <input type="tel" placeholder="휴대폰번호를 입력해 주세요. (-없이)">
+                    </div>
+                    <div class="input">
+                        <div class="label">이메일</div>
+                        <input type="email" placeholder="이메일을 입력해 주세요.">
+                    </div>
+                    <div class="input">
+                        <div class="label">소속</div>
+                        <input type="text" placeholder="이메일을 입력해 주세요.">
+                    </div>
+                    <div class="input">
+                        <div class="label">문의사항</div>
+                        <textarea placeholder="연락가능한 요일/시간을 적어주세요."></textarea>
+                    </div>
+
+                    <label class="checkbox">
+                        <input type="checkbox">
+                        <span class="checkIcon"></span>
+                        개인정보 활용동의
+                    </label>
+
+                    <button class="btn">문의하기</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <!-- SLICK -->
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+    <script>
+        $('.slide').slick(
+            {
+                dots: true,
+                infinite: true,
+                slidesToShow: 1,
+                // centerMode: true,
+            }
+        );
+    </script>
+</body>
 </html>
