@@ -10,7 +10,8 @@
 </head>
 <body>
 
-    <div class="header">
+    <!-- pc 헤더 -->
+    <div class="header d-pc">
         <div class="inner">
             <div class="left">
                 <ul>
@@ -32,6 +33,16 @@
                     </li>
                 </ul>
             </div>
+        </div>
+
+    </div>
+    <!-- mobile 헤더 -->
+    <div class="header d-mobile">
+        <div class="inner">
+            <div class="logo"><a href="#"><img src="./img/logo.svg" alt="logo"></a></div>
+            <a class="hamburgerMenu" href="javascript:void(0)" onclick="modalOn()">
+                <img src="./img/ic_hamburger.svg" alt="ic_hamburger">
+            </a>
         </div>
     </div>
 
@@ -234,10 +245,11 @@
     <div class="dontWorry">
         <div class="inner">
             <div class="secSub">
-                <h5>All In One 학원 서비스를 무료로</h5>
+                <h5>우리 학원도 사용해도 될까...?</h5>
             </div>
             <div class="secTit">
-                <h2>스마트 원생관리 프로그램, 공선학관</h2>
+                <h2>걱정하지 마세요.<br>
+                    다양한 학원에서 사용할 수 있어요.</h2>
             </div>
 
             <img src="./img/img_dontWorry.png" alt="dontWorry">
@@ -344,43 +356,55 @@
                 <li class="item">
                     <div class="tray">
                         <img src="./img/ic_func_01.svg" alt="func1">
-                        <h5>스마트 청구/수납</h5>
-                        <p>원생별 청수서와 알림톡 발송되고 다양한 결제수단을 제공합니다.</p>
+                        <div>
+                            <h5>스마트 청구/수납</h5>
+                            <p>원생별 청수서와 알림톡 발송되고 다양한 결제수단을 제공합니다.</p>
+                        </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="tray">
                         <img src="./img/ic_func_02.svg" alt="func2">
-                        <h5>핵심 원생관리</h5>
-                        <p>등하원 알림이 발송되며 수강내역을 손쉽게 관리할 수 있습니다.</p>
+                        <div>
+                            <h5>핵심 원생관리</h5>
+                            <p>등하원 알림이 발송되며 수강내역을 손쉽게 관리할 수 있습니다.</p>
+                        </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="tray">
                         <img src="./img/ic_func_03.svg" alt="func3">
-                        <h5>소통관리</h5>
-                        <p>원생 상담일지 , 출결현황판으로 체계적으로 관리 및 상담이 가능합니다.</p>
+                        <div>
+                            <h5>소통관리</h5>
+                            <p>원생 상담일지 , 출결현황판으로 체계적으로 관리 및 상담이 가능합니다.</p>
+                        </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="tray">
                         <img src="./img/ic_func_04.svg" alt="func4">
-                        <h5>개인화된 교육관리</h5>
-                        <p>원생별 학습 리포트를 관리할 수 있습니다. 성적, 과제를 점검할 수 있습니다.</p>
+                        <div>
+                            <h5>개인화된 교육관리</h5>
+                            <p>원생별 학습 리포트를 관리할 수 있습니다. 성적, 과제를 점검할 수 있습니다.</p>
+                        </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="tray">
                         <img src="./img/ic_func_05.svg" alt="func5">
-                        <h5>경영성과 관리</h5>
-                        <p>학원의 현황을 한눈에 볼 수 있는 리포트 제공, 수입과 지출 관리 내역을 관리할 수 있습니다.</p>
+                        <div>
+                            <h5>경영성과 관리</h5>
+                            <p>학원의 현황을 한눈에 볼 수 있는 리포트 제공, 수입과 지출 관리 내역을 관리할 수 있습니다.</p>
+                        </div>
                     </div>
                 </li>
                 <li class="item">
                     <div class="tray">
                         <img src="./img/ic_func_06.svg" alt="func6">
-                        <h5>직원관리</h5>
-                        <p>직원들의 근태와 급여 관리 기능을 제공합니다.</p>
+                        <div>
+                            <h5>직원관리</h5>
+                            <p>직원들의 근태와 급여 관리 기능을 제공합니다.</p>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -407,30 +431,31 @@
                 <li><img src="./img/img_brand_10.png" alt="brand10"></li>
                 <li><img src="./img/img_brand_11.png" alt="brand11"></li>
                 <li><img src="./img/img_brand_12.png" alt="brand12"></li>
-                <li><img src="./img/img_brand_01.png" alt="brand01"></li>
-                <li><img src="./img/img_brand_02.png" alt="brand02"></li>
-                <li><img src="./img/img_brand_03.png" alt="brand03"></li>
-                <li><img src="./img/img_brand_04.png" alt="brand04"></li>
-                <li><img src="./img/img_brand_05.png" alt="brand05"></li>
-                <li><img src="./img/img_brand_06.png" alt="brand06"></li>
-                <li><img src="./img/img_brand_07.png" alt="brand07"></li>
-                <li><img src="./img/img_brand_08.png" alt="brand08"></li>
-                <li><img src="./img/img_brand_09.png" alt="brand09"></li>
-                <li><img src="./img/img_brand_10.png" alt="brand10"></li>
-                <li><img src="./img/img_brand_11.png" alt="brand11"></li>
-                <li><img src="./img/img_brand_12.png" alt="brand12"></li>
-                <li><img src="./img/img_brand_01.png" alt="brand01"></li>
-                <li><img src="./img/img_brand_02.png" alt="brand02"></li>
-                <li><img src="./img/img_brand_03.png" alt="brand03"></li>
-                <li><img src="./img/img_brand_04.png" alt="brand04"></li>
-                <li><img src="./img/img_brand_05.png" alt="brand05"></li>
-                <li><img src="./img/img_brand_06.png" alt="brand06"></li>
-                <li><img src="./img/img_brand_07.png" alt="brand07"></li>
-                <li><img src="./img/img_brand_08.png" alt="brand08"></li>
-                <li><img src="./img/img_brand_09.png" alt="brand09"></li>
-                <li><img src="./img/img_brand_10.png" alt="brand10"></li>
-                <li><img src="./img/img_brand_11.png" alt="brand11"></li>
-                <li><img src="./img/img_brand_12.png" alt="brand12"></li>
+
+                <li class="clone"><img src="./img/img_brand_01.png" alt="brand01"></li>
+                <li class="clone"><img src="./img/img_brand_02.png" alt="brand02"></li>
+                <li class="clone"><img src="./img/img_brand_03.png" alt="brand03"></li>
+                <li class="clone"><img src="./img/img_brand_04.png" alt="brand04"></li>
+                <li class="clone"><img src="./img/img_brand_05.png" alt="brand05"></li>
+                <li class="clone"><img src="./img/img_brand_06.png" alt="brand06"></li>
+                <li class="clone"><img src="./img/img_brand_07.png" alt="brand07"></li>
+                <li class="clone"><img src="./img/img_brand_08.png" alt="brand08"></li>
+                <li class="clone"><img src="./img/img_brand_09.png" alt="brand09"></li>
+                <li class="clone"><img src="./img/img_brand_10.png" alt="brand10"></li>
+                <li class="clone"><img src="./img/img_brand_11.png" alt="brand11"></li>
+                <li class="clone"><img src="./img/img_brand_12.png" alt="brand12"></li>
+                <li class="clone"><img src="./img/img_brand_01.png" alt="brand01"></li>
+                <li class="clone"><img src="./img/img_brand_02.png" alt="brand02"></li>
+                <li class="clone"><img src="./img/img_brand_03.png" alt="brand03"></li>
+                <li class="clone"><img src="./img/img_brand_04.png" alt="brand04"></li>
+                <li class="clone"><img src="./img/img_brand_05.png" alt="brand05"></li>
+                <li class="clone"><img src="./img/img_brand_06.png" alt="brand06"></li>
+                <li class="clone"><img src="./img/img_brand_07.png" alt="brand07"></li>
+                <li class="clone"><img src="./img/img_brand_08.png" alt="brand08"></li>
+                <li class="clone"><img src="./img/img_brand_09.png" alt="brand09"></li>
+                <li class="clone"><img src="./img/img_brand_10.png" alt="brand10"></li>
+                <li class="clone"><img src="./img/img_brand_11.png" alt="brand11"></li>
+                <li class="clone"><img src="./img/img_brand_12.png" alt="brand12"></li>
             </ul>
         </div>
     </div>
@@ -478,24 +503,25 @@
     
     <div class="rightNow">
         <div class="inner">
-            <img src="./img/ic_rightNow.svg" alt="text">
+            <img class="d-pc" src="./img/ic_rightNow.svg" alt="text">
+            <img class="d-mobile" src="./img/ic_rightNow_m.svg" alt="text">
             <img class="sonImg" src="./img/img_rightNow.png" alt="sonProfile">
         </div>
     </div>
     
     <div class="contact">
         <div class="inner">
-            <div>
+            <div class="infoWrap">
                 <div class="secSub">
                     <h5>상담신청</h5>
                 </div>
                 <div class="secTit">
-                    <h2>친절한 상담을<br>
+                    <h2>친절한 상담을
                         약속드립니다.</h2>
                 </div>
                 <p>
-                    문의를 남겨주시면,<br>
-                    담당자가 유선, 문자, 이메일 등을 통해서<br>
+                    문의를 남겨주시면,
+                    담당자가&nbsp;유선,&nbsp;문자,&nbsp;이메일&nbsp;등을 통해서<br>
                     순차적으로 답변드립니다.
                 </p>
             </div>
@@ -535,7 +561,76 @@
         </div>
     </div>
 
+    <footer>
+        <div class="inner">
+            <div class="left">
+                <div class="logo">
+                    <img src="./img/logo.svg" alt="logo">
+                </div>
+                <p class="info1">
+                    사이트명 : 공선학관 | 상호명 : (주)공부선배 | 대표자 : 이용운<span class="divider"> | </span><span>사업자 등록번호 : 261-81-23776</span> <br>
+                    서울특별시 강남구 봉은사로5길 6 코너빌딩 3층 | 대표전화 : 02-777-0001<span class="divider"> | </span><span>고객센터 : gshk@studysenior.com</span>
+                </p>
+                <p class="info2">
+                    통신판매번호 : 제 2015-서울강남-00971호  |  학원설립 운영등록번호 : 제14064호 공부선배원격학원<br>
+                    <span>신고기관명 : 서울특별시 강남서초교육지원청</span>
+                </p>
+            </div>
 
+            <div class="right">
+                <div class="contact">
+                    <div class="bg">제휴제안</div>
+                    <div class="border"><a href="mailto:winwin@studysenior.com">winwin@studysenior.com</a></div>
+                </div>
+                <ul class="etc">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보취급방침</a></li>
+                    <li><a href="#">고객센터</a></li>
+                </ul>
+                <div class="copy">
+                    Copyright ⓒstudysenior. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <div class="modalMenu">
+        <div class="offCanvas">
+            <div class="canvasHeader">
+                <div class="top">
+                    <div class="logo"><a href="#"><img src="./img/logo.svg" alt="logo"></a></div>
+                    <a class="modalClose" href="javascript:void(0)" onclick="modalClose()"><img src="./img/ic_modalClose.svg" alt="close"></a>
+                </div>
+                <a href="#" class="btn">로그인</a>
+            </div>
+            <ul class="canvasBody">
+                <li class="ac"><a href="#">주요기능</a></li>
+                <li><a href="#">사용요금</a></li>
+                <li><a href="#">사용문의</a></li>
+            </ul>
+        </div>
+        <div class="dim"></div>
+    </div>
+
+    <script>
+        const modalMenu = document.querySelector('.modalMenu');
+        const view = document.querySelector('body')
+
+        function modalOn() {
+            modalMenu.classList.add('on')
+        }
+        function modalClose() {
+            modalMenu.classList.remove('on')
+        }
+
+        window.addEventListener("resize", function() {
+            //모바일 지원 끝
+            if(window.innerWidth > 1280) {
+                modalClose();
+            }
+        });
+    </script>
     
     <!-- SLICK -->
     <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
