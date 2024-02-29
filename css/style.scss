@@ -54,6 +54,7 @@ html {
 
 body {
 	color: #262626;
+	min-width: 360px;
 }
 
 Select {
@@ -734,6 +735,7 @@ p {
 			}
 			p {
 				margin-bottom: 80px;
+				max-width: 348px;
 			}
 			.name {
 				color: #262626;
@@ -1234,6 +1236,7 @@ footer {
 		}
 		.effectImg {
 			margin: 0 auto;
+			max-width: 90%;
 		}
 		.score ul {
 			flex-wrap: wrap;
@@ -1262,7 +1265,8 @@ footer {
 			gap: 26px;
 			padding: 0 8px;
 			li {
-				width: 320px;
+				max-width: 320px;
+				width: 100%;
 				min-height: 360px;
 				margin: 0 auto;
 				padding-top: 28px;
@@ -1275,6 +1279,10 @@ footer {
 				h5 {
 					font-size: 20px;
 					margin-bottom: 12px;
+					padding: 0 8px;
+				}
+				p {
+					padding: 0 8px;
 				}
 			}
 		}
@@ -1316,6 +1324,7 @@ footer {
 				margin-left: -20px;
 				margin-right: -20px;
 				margin-bottom: 40px;
+				max-width: 100vw;
 			}
 			.textWrap {
 				padding-left: 0;
@@ -1412,19 +1421,24 @@ footer {
 				margin-bottom: 47px;
 			}
 			.textWrap {
+				padding-right: 0;
 				h2 {
 					margin-bottom: 8px;
 				}
 				p {
 					font-size: 12px;
 					margin-bottom: 32px;
+					max-width: 298px;
 				}
 				.name {
 					font-size: 14px;
 					margin-bottom: 8px;
 				}
+				.app img {
+					width: 98px;
+				}
 				.app span + span {
-					margin-left: 12px;
+					margin-left: 8px;
 				}
 				.app + .app {
 					margin-top: 32px;
@@ -1447,6 +1461,7 @@ footer {
 	}
 
 	.rightNow {
+		overflow: hidden;
 		padding: 0;
 		height: 600px;
 		box-sizing: border-box;
